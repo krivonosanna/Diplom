@@ -16,22 +16,20 @@
 
 
 
-\title{A template for the \emph{arxiv} style}
+\title{Методы верификации для кластеризации временных рядов }
 
-\author{ David S.~Hippocampus\thanks{Use footnote for providing further
-		information about author (webpage, alternative
-		address)---\emph{not} for acknowledging funding agencies.} \\
-	Department of Computer Science\\
-	Cranberry-Lemon University\\
-	Pittsburgh, PA 15213 \\
-	\texttt{hippo@cs.cranberry-lemon.edu} \\
+\author{ Кривонос Анна Вадимовна  \\
+	МГУ им. М.В. Ломоносова\\
+	ф-т ВМК, кафедра ММП\\
+	% Pittsburgh, PA 15213 \\
+	\texttt{s02200553@gse.cs.msu.ru} \\
 	%% examples of more authors
 	\And
-	Elias D.~Striatum \\
-	Department of Electrical Engineering\\
-	Mount-Sheikh University\\
-	Santa Narimana, Levand \\
-	\texttt{stariate@ee.mount-sheikh.edu} \\
+	д.ф-м.н. Сенько Олег Валентинович \\
+	МГУ им. М.В. Ломоносова\\
+	ф-т ВМК, кафедра ММП\\
+	% Santa Narimana, Levand \\
+	\texttt{senkoov@mail.ru } \\
 	%% \AND
 	%% Coauthor \\
 	%% Affiliation \\
@@ -56,7 +54,7 @@
 %%% Once the PDF is generated, you can check the metadata with
 %%% $ pdfinfo template.pdf
 \hypersetup{
-pdftitle={A template for the arxiv style},
+pdftitle={Методы верификации для кластеризации временных рядов},
 pdfsubject={q-bio.NC, q-bio.QM},
 pdfauthor={David S.~Hippocampus, Elias D.~Striatum},
 pdfkeywords={First keyword, Second keyword, More},
@@ -66,11 +64,11 @@ pdfkeywords={First keyword, Second keyword, More},
 \maketitle
 
 \begin{abstract}
-	\lipsum[1]
+Данная работа посвящена оценке статистической значимости кластеризации временных рядов. Сходство двух временных рядов  предполагается оценивать с помощью стандартного коэффициента корреляции Пирсона. Более точный учёта сходства/различий между временными рядами Si и Sj достигался через подбор лага l из отрезка [0,20], при котором коэффициент корреляции Пирсона оказывался максимальным. В качестве метода кластеризации использовалась иерархичская кластеризация. Для верификации кластеризации рассматривается подход, основанный на проверке нулевой гипотезы о равновероятности различных соответствий мер сходства между двумя временными рядами. Проверка такой нулевой гипотезы производится с использованием варианта перестановочного теста, значения индикатора качества для кластеризации, полученной по исходной матрице сходства, сравнивается со значением индикатора качества для кластеризаци, по случайной матрице сходства, сгенерированной из исходной путём случайных перестановок её внедиагональных элементов с сохранением симметрии. В качестве данных используются кривые темпа роста Covid-19 для различных странн мира, а также для отдельных регионов России.
 \end{abstract}
 
 
-\keywords{First keyword \and Second keyword \and More}
+\keywords{Иерархическая кластеризация \and коэффициент Пирсона \and верификация кластеризации}
 
 \section{Introduction}
 \lipsum[2]
