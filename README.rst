@@ -16,14 +16,14 @@
 .. class:: center
 
     :Название исследуемой задачи: 
-    :Тип научной работы: M1P/НИР/CoIS
+    :Тип научной работы: M1P
     :Автор: Кривонос Анна Вадимовна
-    :Научный руководитель: степень, Сенько Олег Валентинович
+    :Научный руководитель: д.ф-м.н, Сенько Олег Валентинович
 
-Abstract
+Аннотация
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+Данная работа посвящена оценке статистической значимости кластеризации временных рядов. Сходство двух временных рядов  предполагается оценивать с помощью стандартного коэффициента корреляции Пирсона. Более точный учёта сходства/различий между временными рядами Si и Sj достигался через подбор лага l, при котором коэффициент корреляции Пирсона оказывался максимальным. В качестве метода кластеризации использовалась иерархичская кластеризация. Для верификации кластеризации рассматривается подход, основанный на проверке нулевой гипотезы о равновероятности различных соответствий мер сходства между двумя временными рядами. Проверка такой нулевой гипотезы производится с использованием варианта перестановочного теста, значения индикатора качества для кластеризации, полученной по исходной матрице сходства, сравнивается со значением индикатора качества для кластеризаци, по случайной матрице сходства, сгенерированной из исходной путём случайных перестановок её внедиагональных элементов с сохранением симметрии. В качестве данных используются кривые темпа роста Covid-19 для различных странн мира, а также для отдельных регионов России.
 
 Research publications
 ===============================
